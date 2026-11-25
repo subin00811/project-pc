@@ -1,27 +1,24 @@
 # WEB PORTFOLIO
-기업형 웹(PC), 반응형 웹, React SPA 웹앱 포트폴리오입니다.<br>
+기업형 웹(PC),기업형 웹앱(MOBILE), 반응형 웹 포트폴리오입니다.<br>
 기획 및 디자인부터 마크업(프로그래밍)까지 100% 기여하였습니다. <br>
 
 ## 🔗 PORTFOLIO URL
-* 기업형 웹 프로젝트(해태)
-    + http://bbeunbin.mycafe24.com/
-* 반응형 웹 프로젝트(박물관) 
-    + http://bbeunbin.mycafe24.com/media/
-* React SPA 프로젝트(기상청)
-    + https://react-project-3c3bd.web.app/
+* 기업형 PC웹 프로젝트(샤롯데씨어터)
+    + http://tnqls2282.mycafe24.com/
+ * 기업형 모바일 웹앱 프로젝트(샤롯데씨어터)
+    + http://tnqls2282.mycafe24.com/mobile/
+* 반응형 웹 프로젝트(BUGATTI) 
+    + http://tnqls2282.mycafe24.com/media/
 * 프로필 및 포트폴리오 링크
-    + http://bbeunbin.mycafe24.com/profile/
+    + http://tnqls2282.mycafe24.com/profile/
 
 
 ### ⚒️ SKILLS
 * HTML
 * CSS(less/sass)
 * JavaScript(ES6), JQuery, TypeScript, (Ajax & Json)
-* React
-* PHP / My-SQL
-* Firebase(firestore database & hosting) 
 * Git & Github
-* Photoshop/Illustrator/Figma
+* Photoshop/Illustrator/Indesign/Figma
 
 ### ⚠️ 웹 표준 / 웹 접근성
 * W3C 마크업검사 및 css검사 완료 

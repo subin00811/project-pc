@@ -1,0 +1,60 @@
+#content .deco_line{width: 2px; height: 95px; background: var(--color-point1); margin: 0 auto 18px;}
+#content .deco_diamond{width: 12px; height: 12px; background: var(--color-point1); transform: rotate(45deg); margin: 0 auto 100px;}
+
+#content{max-width: 1400px; width: 100%; margin: 0 auto;}
+
+#content .content_area .Reservation{margin-bottom: 80px;}
+#content .content_area .Reservation h3{font-size: var(--font-h5-size); line-height: 1; color: var(--color-font1); font-weight: 500;
+    border-left: 3px solid var(--color-main); padding-left: 10px;}
+#content .content_area .Reservation dl{width: 1053px; border-top: .5px solid #d9d9d9; border-bottom: .5px solid #d9d9d9; padding: 50px 30px 0; margin: 50px auto;}
+#content .content_area .Reservation dl dt{display: flex; align-items: center; gap: 70px; margin-bottom: 8px;
+    font-size: 1.15rem; font-weight: 500; color: var(--color-font1);}
+#content .content_area .Reservation dl dt .badge{display: flex; color: var(--color-point1); font-size: 1rem; background: var(--color-sub1);
+    font-weight: 500; width: 115px; height: 35px; border-radius: 10px; gap: 5px; justify-content: center; align-items: center;}
+#content .content_area .Reservation dl dt .badge_icon{font-size: 1.13rem;}
+#content .content_area .Reservation dl dd{font-size: 1rem; font-weight: 400; color: var(--color-font2); margin: 0 0 50px 200px; line-height: 15px;}
+
+#content .content_area .refund_info{margin-bottom: 100px;}
+#content .content_area .refund_info h3{font-size: var(--font-h5-size); line-height: 1; color: var(--color-font1); font-weight: 500;
+    border-left: 3px solid var(--color-main); padding-left: 10px;}
+#content .content_area .refund_info .payment_list{display: flex; gap: 80px; margin-top: 50px; width: 1300px; justify-content: center; margin-left: auto; margin-right: auto;}
+#content .content_area .refund_info .payment_list li{flex: 1; box-sizing: border-box; border: .5px solid #d9d9d9; border-radius: 10px; padding: 25px 30px;
+position: relative; box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .1);}
+#content .content_area .refund_info .payment_list li .payment_top{display: flex; align-items: flex-start; gap: 20px;}
+#content .content_area .refund_info .payment_list li .material-symbols-outlined{font-size: var(--font-h6-size); position: absolute;
+     top: 25px; left: 30px; color: var(--color-point3); border: 2px solid var(--color-point3); width: 55px; height: 55px; border-radius: 50%;
+    justify-content: center; align-items: center; display: flex;}
+#content .content_area .refund_info .payment_list li .payment_top .refund_top{padding-left: 90px;}
+#content .content_area .refund_info .payment_list li .payment_top .refund_top dt{font-size: var(--font-24-size); font-weight: 500; color: var(--color-point3);}
+#content .content_area .refund_info .payment_list li .payment_top .refund_top .refund_text{font-size: var(--font-14-size); margin-bottom: 0;}
+#content .content_area .refund_info .payment_list li .payment_top .refund_top dd{font-size: 1rem; font-weight: 400; color: var(--color-font1); margin-bottom: 5px;}
+#content .content_area .refund_info .payment_list li dl.refund{border-top: .5px solid #d9d9d9; margin-top: 15px; padding-top: 15px;}
+#content .content_area .refund_info .payment_list li dl.refund dt{font-size: var(--font-14-size); font-weight: 500; color: var(--color-point3);}
+#content .content_area .refund_info .payment_list li dl.refund dd{font-size: var(--font-14-size);}
+#content .content_area .refund_info p span{font-size: 1rem; font-weight: 500; color: var(--color-point3); margin-right: 20px;}
+#content .content_area .refund_info p{font-size: 1rem; font-weight: 500; color: var(--color-font1); 
+border-radius: 10px; width: 1200px; align-items: center; display: flex; padding-left: 30px; margin: 25px 0 20px 40px;}
+
+#content .content_area .discount_info{margin-bottom: 70px;}
+#content .content_area .discount_info h3{font-size: var(--font-h5-size); line-height: 1; color: var(--color-font1); font-weight: 500;
+    border-left: 3px solid var(--color-main); padding-left: 10px;}
+#content .content_area .discount_info .discount_table{width: 100%; border-collapse: collapse; text-align: center; margin: 50px 30px 15px 30px; border: .5px solid #d9d9d9;}
+#content .content_area .discount_info .discount_table thead th{background: var(--color-point3); color: #fff; font-size: 1.125rem; font-weight: 700;
+     padding: 15px 10px;}
+#content .content_area .discount_info .discount_table tbody td{padding: 15px 10px; border-bottom: 1px solid #d9d9d9; font-size: 1rem;
+    color: var(--color-font1); line-height: 1.3; font-weight: 500;}
+#content .content_area .discount_info .discount_table tbody td.tit{font-weight: 700; color: var(--color-point3);}
+#content .content_area .discount_info .discount_table tbody td span{display: block; font-size: 0.85rem; color: var(--color-font2); font-weight: 400; margin-top: 4px;}
+#content .content_area .discount_info p{margin-left: 30px; line-height: 30px;}
+
+#content .content_area .cancel_info{margin-bottom: 210px;}
+#content .content_area .cancel_info h3{font-size: var(--font-h5-size); line-height: 1; color: var(--color-font1); font-weight: 500; border-left: 3px solid var(--color-main); padding-left: 10px;}
+#content .content_area .cancel_info .cancel_step{counter-reset: step; display: flex; position: relative; margin-top: 60px; justify-content: center; gap: 30px;}
+#content .content_area .cancel_info .cancel_step li{width: 400px; counter-increment: step; text-align: center; position: relative;}
+#content .content_area .cancel_info .cancel_step > li::before{content: counter(step); display: flex; align-items: center; justify-content: center; width: 40px; height: 40px;
+  background: var(--color-point3); color: var(--color-point1); border-radius: 50%; font-weight: 700; margin: 0 auto 20px; position: relative; z-index: 1;}
+#content .content_area .cancel_info .cancel_step::after{content: ''; position: absolute; top: 20px; left: 10%; right: 10%; height: 1px; background: #d9d9d9; z-index: 0;}
+#content .content_area .cancel_info .cancel_step li dl dt{font-size: 1.15rem; font-weight: 600; color: var(--color-font1); margin-bottom: 8px;}
+#content .content_area .cancel_info .cancel_step li dl dd{font-size: var(--font-14-size); color: var(--color-font2); line-height: 1.4;}
+
+

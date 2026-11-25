@@ -1,0 +1,32 @@
+#content .deco_line{width: 2px; height: 95px; background: var(--color-point1); margin: 0 auto 18px;}
+#content .deco_diamond{width: 12px; height: 12px; background: var(--color-point1); transform: rotate(45deg); margin: 0 auto 100px;}
+
+#content{max-width: 1400px; width: 100%; margin: 0 auto;}
+
+#content .content_area .faq{width: 1100px; height: auto; padding: 60px 100px; margin: 0 auto; border: none; border-radius: 30px; box-shadow: 1px 1px 10px 1px rgba(0,0,0,.1);
+    font-size: 14px; background: #fff; display: grid; grid-template-columns: 370px 1fr; column-gap: 50px; align-items: start; grid-template-rows: auto auto;}
+#content .content_area .faq h3{color: var(--color-main); font-size: var(--font-h5-size); font-weight: 600; margin-bottom: 10px; grid-row: 1; grid-column: 1;}
+#content .content_area .faq .faq_desc{color: var(--color-font2); font-size: var(--font-14-size); line-height: 1.6; word-break: keep-all; margin-top: 70px; grid-row: 1; grid-column: 1;}
+#content .content_area .faq .q{border-top: none; position: relative; background: var(--color-sub2); border-radius: 14px; width: 630px; height: 55px; display: flex; align-items: center; margin-left: auto; margin-bottom: 15px;}
+#content .content_area .faq .q .trigger{display: flex; align-items: center; padding: 18px 55px 18px 20px; background: none; color: var(--color-font1); text-align: left;}
+#content .content_area .faq ul{grid-column: 2; grid-row: 1 / 3;}
+#content .content_area .faq .hide .q .trigger{font-weight:normal; background:none}
+#content .content_area .faq .q .trigger strong{display: inline-block; flex-shrink: 0; color: var(--color-main); font-weight: 700; font-size: 1rem;
+    padding: 3px 8px; margin-right: 12px;}
+#content .content_area .faq .q>span{display: block; position: absolute; right: 20px; top: 50%; width: 16px; height: 16px; transform: translateY(-50%);}
+#content .content_area .faq .q>span::before{ width: 12px; height: 2px; }
+#content .content_area .faq .q>span::after{ width: 2px; height: 12px; }
+#content .content_area .faq .a{padding: 0 20px 20px 20px; line-height: 1.5; margin-left: auto; display: none; color: #777; font-size: 13px; width: 580px;}
+#content .content_area .faq .q .trigger svg{display: none;}
+
+#content .content_area .group{width: 1100px; margin: 50px auto 210px; padding: 60px 100px; border: none; border-radius: 30px; box-shadow: 1px 1px 10px 1px rgba(0,0,0,.1); background: #fff;}
+#content .content_area .group h3{font-size: var(--font-h5-size); font-weight: 600; color: var(--color-main); text-align: left; margin-bottom: 40px;}
+#content .content_area .group .group_q{display: block; font-size: 1rem; color: var(--color-point3); font-weight: 600; line-height: 1.8;}
+#content .content_area .group .group_text{font-size: var(--font-14-size); color: var(--color-font2); font-weight: 500; line-height: 1.6;
+    margin-top: 20px; border-bottom: .5px solid #d9d9d9; padding-bottom: 40px;}
+#content .content_area .group ul li span{font-size: var(--font-14-size); color: var(--color-point1); font-weight: 500;}
+#content .content_area .group ul li{font-size: var(--font-14-size); color: var(--color-font2); font-weight: 500; line-height: 2;}
+#content .content_area .group ul{margin: 40px 0;}
+#content .content_area .group .group_box{background: #f3f3f3; padding: 30px;}
+#content .content_area .group .group_box strong{font-size: 1rem; color: var(--color-font1); font-weight: 600;}
+#content .content_area .group .group_box p{font-size: var(--font-14-size); color: var(--color-font2); font-weight: 400; line-height: 2;}

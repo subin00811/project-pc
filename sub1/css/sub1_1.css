@@ -1,0 +1,26 @@
+/* 샤롯데소개의 본문영역 */
+#content .deco_line{width: 2px; height: 95px; background: var(--color-point1); margin: 0 auto 18px;}
+#content .deco_diamond{width: 12px; height: 12px; background: var(--color-point1); transform: rotate(45deg); margin: 0 auto 80px;}
+
+#content .content_area .intro_line{max-width: 1400px; width: 100%; margin: auto; display: flex; justify-content: center; border-top: 1px solid #999; border-bottom: 1px solid #999;}
+#content .content_area .intro_line li{text-align: center; margin: 70px 0;}
+#content .content_area .intro_line li strong{font-size: 3.44rem; color: var(--color-main); font-weight: 500;}
+#content .content_area .intro_line li span{display: block; font-size: var(--font-24-size); color: var(--color-font2); font-weight: 500;}
+#content .content_area .intro_line li+li{border-left:1px solid #999; padding-left: 150px; margin-left: 150px; height: 120px;}
+#content .content_area .main_intro{background: url(../img/sub1/intro_gr.png) no-repeat 0 55px; max-width: 1110px; width: 100%; margin: 150px auto; counter-reset: intro;}
+#content .content_area .main_intro li{display: flex; align-items: center; justify-content: space-between; gap: 60px; margin: 50px 0; position: relative; padding: left;}
+#content .content_area .main_intro li::before{content: counter(intro, decimal-leading-zero); color: var(--color-main); font-size: 2.50rem; font-weight: 500; position: absolute; left: -80px; top: 28px; counter-increment: intro;}
+#content .content_area .main_intro li::after{content: ''; position: absolute; left: 2px; top: 24%; transform: translate(-50%, -50%); width: 12px; height: 12px; border-radius: 50%; background: var(--color-point1);}
+#content .content_area .main_intro li dl{flex: 1; margin-left: 50px;}
+#content .content_area .main_intro li dl dt span{display: block; font-size: 1rem; color: var(--color-main); font-weight: 700;}
+#content .content_area .main_intro li dl dt{font-size: var(--font-24-size); color: var(--color-font1); font-weight: 700; margin-bottom: 10px;}
+#content .content_area .main_intro li dl dt dd{font-size: 1rem; color: var(--color-font2); font-weight: 400; line-height: 24px;}
+#content .content_area .main_intro li div img{border-radius: 10px; width: 393px; height: 251px;}
+#content .content_area .main_intro li>div{width: 380px; flex-shrink: 0;}
+#content .content_area .amb{display: flex; justify-content: center; align-items: center; margin: 50px auto 210px; }
+#content .content_area .amb dl{max-width: 590px; margin-left: 60px;}
+#content .content_area .amb dl dt span{display: block; font-size: 1rem; color: var(--color-main); font-weight: 700;}
+#content .content_area .amb dl dt{font-size: var(--font-24-size); color: var(--color-font1); font-weight: 700; margin-bottom: 15px;}
+#content .content_area .amb dl dt dd{font-size: 1rem; color: var(--color-font2); font-weight: 400;}
+
+

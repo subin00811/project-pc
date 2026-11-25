@@ -1,0 +1,35 @@
+#content .deco_line{width: 2px; height: 95px; background: var(--color-point1); margin: 0 auto 18px;}
+#content .deco_diamond{width: 12px; height: 12px; background: var(--color-point1); transform: rotate(45deg); margin: 0 auto 100px;}
+
+#content .content_area .top_video{padding: 70px 20px 80px; background: url(../img/sub2/background.jpg);}
+#content .content_area .top_video span{display: flex; font-family: "Roboto Serif", serif; font-size: var(--font-h6-size); align-items: center; gap: 28px; color: var(--color-point1);
+font-weight: 500; justify-content: center;}
+#content .content_area .top_video span::before,
+#content .content_area .top_video span::after{content: ''; width: 45px; height: 2px; background: var(--color-point1);}
+#content .content_area .top_video h3{margin: 8px 0 3px; font-size: var(--font-20-size); font-weight: 500; color: #fff; text-align: center;}
+#content .content_area .top_video .sub_txt{font-size: var(--font-14-size); color: #fff; text-align: center; margin-bottom: 40px; font-weight: 300;}
+#content .content_area .top_video iframe{display: block; width: 100%; max-width: 1000px; height: auto; aspect-ratio: 16 / 9; margin: 0 auto; border: 0;}
+#content .content_area .top_video dl{max-width: 1000px; margin: 35px 0 0 433px; padding-left: 20px; border-left: 2px solid #fff;}
+#content .content_area .top_video dt{margin-bottom: 4px; font-size: var(--font-20-size); color: var(--color-point1);}
+#content .content_area .top_video dd{margin: 0; font-size: var(--font-24-size); color: #fff;}
+
+
+
+/*  갤러리  */
+#content .content_area .gallery{margin: 0 auto; padding: 80px 300px 210px; text-align: center; background: var(--color-sub2);}
+#content .content_area .gallery h3{margin: 0; font-size: var(--font-h3-size); font-weight: 700; color: var(--color-point3);}
+#content .content_area .gallery>span{display: block; font-size: var(--font-18-size); color: var(--color-font1);}
+
+#content .content_area .gallery_tab{display: flex; justify-content: center; gap: 10px; margin: 40px 0 20px; padding: 0 0 20px; border-bottom: 1px solid var(--color-point3);}
+#content .content_area .gallery_tab button{padding: 8px 25px; border: 1px solid var(--color-point3); border-radius: 30px; background: var(--color-sub2); font-size: 1rem; font-weight: 500;
+  color: var(--color-point3); transition: all .3s ease-out;}
+#content .content_area .gallery_tab button.active,
+#content .content_area .gallery_tab button:hover{background: var(--color-point3); color: #fff;}
+
+#content .content_area .gallery_list{display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 12px 0 0; padding: 0 24px; list-style: none;}
+#content .content_area .gallery_list li{position: relative; overflow: hidden; aspect-ratio: 1 / 1;/* 정사각형 */}
+#content .content_area .gallery_list img{display: block; width: 100%; height: 100%; object-fit: cover;}
+
+#content .content_area .gallery_list .big{grid-column: span 2; grid-row: span 2; background: #000;}
+
+#content .content_area .gallery_list .big iframe{position: absolute; top: 50%; left: 0; width: 100%; height: 177.78%; transform: translateY(-50%); border: 0;}

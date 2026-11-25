@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공연/예매:일정안내</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://kit.fontawesome.com/f820e0ebf2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="./css/sub2_common.css">
+    <link rel="stylesheet" href="./lib/main.min.css">
+    <link rel="stylesheet" href="./css/sub2_2.css">
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#content">본문바로가기</a>
+        <a href="#gnb">네비게이션바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="headerArea">
+            
+        </header>
+
+        <div class="visual">
+            <img src="./img/common/sub2_visual.jpg" alt="">
+            <strong>공연/예매</strong>
+        </div>
+
+        <div class="sub_nav">
+            <ul>
+                <li><a href="./sub2_1.html">현재공연</a></li>
+                <li><a class="active" href="./sub2_2.html">일정안내</a></li>
+                <li><a href="./sub2_3.html">예매안내</a></li>
+            </ul>
+        </div>
+
+        <main id="content">
+            <article>
+                <div class="title_area">
+                    <div class="line_map">
+                        HOME &gt; 공연/예매 &gt; <strong>일정안내</strong>
+                    </div>
+                    <h2>일정 안내<span>Schedule Information</span></h2>
+                    <p>샤롯데씨어터에서 진행되는 공연 일정을 한눈에 확인하세요.</p>
+                </div>
+
+                <div class="content_area">
+                    <div class="deco_line"></div>
+                    <div class="deco_diamond"></div>
+                    <section class="calender_list">
+                        <h3 data-aos="fade-up">공연 일정</h3>
+                        <div id='calendar' data-aos="fade-up"></div>
+                    </section>
+                    <section class="calendar_notice">
+                        <h3 data-aos="fade-up">특별 회차 안내</h3>
+                        <ul data-aos="fade-up">
+                            <li><span>대체 공휴일</span>10/5(월) 15:00 1회 공연 (평소 월요일 휴관이나 이날은 공연 진행)</li>
+                            <li><span>추석 연휴</span>9/24(목) 14:00·19:00 / 9/25(금) 19:00 / 9/26(토) 14:00·19:00 / 9/27(일) 15:00</li>
+                            <li><span>한글날</span>10/9(금) 19:30 1회 공연</li>
+                            <li><span>추가회차</span>10/21(수), 11/4(수) 14:30·19:30 2회 공연 (평소 수요일은 1회)</li>
+                        </ul>
+                    </section>
+                </div>
+
+            </article>
+        </main>
+
+
+
+
+
+
+
+        <footer id="footerArea">
+            
+        </footer>
+
+    </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script>
+        $('#headerArea').load('../common/sub_header.html',function(){
+            //function(){}  ->  main_header.html의 로드가 완료가 되면
+            $.getScript('../js/fullnav.js');  //스크립트 js파일을 동작시키는 메소드
+        });
+
+        $('#footerArea').load('../common/sub_footer.html',function(){
+            $.getScript('../js/select.js');
+        });
+    </script>
+    <script src='./lib/main.min.js'></script>
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var datw;
+
+    var da = new Date();
+    var gmonth=(da.getMonth()+1);
+    var gdate=(da.getDate());
+    if(gmonth<10)gmonth='0'+gmonth;
+    if(gdate<10)gdate='0'+gdate;
+    var idate =da.getFullYear() +'-'+gmonth+'-'+gdate;  //페이지 로드 시 현재 오늘의 날짜
+
+    //console.log(idate);
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      headerToolbar: {
+        left: 'prevYear,prev,next,nextYear today',
+        center: 'title',
+        right: 'dayGridMonth,dayGridWeek,dayGridDay'
+      },
+      initialDate: idate,  //최초 페이지 로드(실행 시) 보여지는 날짜
+      navLinks: true, // can click day/week names to navigate views
+      editable: false,  //사용자의 일정 수정기능
+      dayMaxEvents: true, // allow "more" link when too many events
+      events: [
+        {
+          title: '추석연휴',
+          start: '2026-09-24',
+          end: '2026-09-28',
+          color: '#D4AF37'
+        },
+        
+        {
+        title: '문화가 있는 날',
+        start: '2026-09-02',
+        display: 'background',
+        color: 'lightgreen'
+        },
+        {
+        title: '문화가 있는 날',
+        start: '2026-09-09',
+        display: 'background',
+        color: 'lightgreen'
+        },
+        {
+        title: '문화가 있는 날',
+        start: '2026-09-16',
+        display: 'background',
+        color: 'lightgreen'
+        },
+        {
+        title: '문화가 있는 날',
+        start: '2026-09-23',
+        display: 'background',
+        color: 'lightgreen'
+        },
+        {
+        title: '문화가 있는 날',
+        start: '2026-09-30',
+        display: 'background',
+        color: 'lightgreen'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-02',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-03',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-04',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-09-05',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-09-06',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-08',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-09',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-10',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-11',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-09-12',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-09-13',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-15',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-16',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-17',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-18',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-09-19',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-09-20',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-22',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-23',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-09-24',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-24',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-09-25',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-25',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-09-26',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:00',
+          start: '2026-09-26',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 15:00',
+          start: '2026-09-27',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-29',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-09-30',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-10-01',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-10-02',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-10-03',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-10-04',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 15:00',
+          start: '2026-10-05',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-10-06',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-10-07',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-10-08',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-10-09',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-10-10',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 14:00',
+          start: '2026-10-11',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-10-13',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-10-14',
+          color: '#f00'
+        },
+        {
+          title: '겨울왕국 19:30',
+          start: '2026-10-15',
+          color: '#f00'
+        }
+      ]
+    });
+
+    calendar.render();
+  });
+</script>
+<script src="../js/aos.js"></script>
+    <script>
+    AOS.init({
+        easing: 'ease-in-out-sine'
+        });
+    </script>
+</body>
+</html>

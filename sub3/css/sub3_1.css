@@ -1,0 +1,35 @@
+#content .deco_line{width: 2px; height: 95px; background: var(--color-point1); margin: 0 auto 18px;}
+#content .deco_diamond{width: 12px; height: 12px; background: var(--color-point1); transform: rotate(45deg); margin: 0 auto 100px;}
+
+#content{max-width: 1400px; width: 100%; margin: 0 auto;}
+
+#content .content_area .table_top{width: 1200px; height: 50px; background: var(--color-main); display: flex; justify-content: space-between;
+    padding: 0 40px; align-items: center; margin: 0 auto;}
+#content .content_area .table_top a{font-size: var(--font-20-size); font-weight: 500; color: #fff;}
+#content .content_area .table_top span{color: #fff;}
+
+#content .content_area .table_main{padding: 60px; border: .5px solid #d9d9d9; margin: 0 auto 210px; width: 1157px;}
+#content .content_area .table_main .t_main01 strong{font-size: var(--font-20-size); font-weight: 500; color: var(--color-font1); height: 1;
+border-left: 3px solid var(--color-main); padding-left: 20px; margin-left: 50px;}
+
+
+.table_info{width: 100%; max-width: 1000px; border-collapse: collapse; margin: 20px auto 0; font-size: 14px; table-layout: fixed;}
+.table_info thead th{background: var(--color-sub1); color: #4A0A10; font-weight: 700; font-size: 1rem; padding: 14px 16px;
+  text-align: center; border: 1px solid #d9d9d9;}
+.table_info tbody th,.table_info tbody td{padding: 14px 16px; text-align: center; vertical-align: middle; border: 1px solid #d9d9d9; color: var(--color-font1);}
+.table_info tbody th[scope="row"]{background: var(--color-sub2); color: var(--color-font1); font-weight: 600;}
+.table_info tbody td[colspan]{font-weight: 500; color: var(--color-font1);}
+
+#content .content_area .table_main .t_main02{margin: 60px 0;}
+#content .content_area .table_main .t_main02 strong{font-size: var(--font-20-size); font-weight: 500; color: var(--color-font1); height: 1;
+border-left: 3px solid var(--color-main); padding-left: 20px; margin-left: 50px;}
+#content .content_area .table_main .t_main02 ul{ margin: 15px 0 20px 88px;}
+#content .content_area .table_main .t_main02 ul li{font-size: 1rem; color: var(--color-font2); font-weight: 500; margin: 5px;}
+#content .content_area .table_main .t_main02 ul .t_text{font-size: 1rem; color: var(--color-point3); font-weight: 500; margin: 5px;}
+
+#content .content_area .table_main .t_main03 strong{font-size: var(--font-20-size); font-weight: 500; color: var(--color-font1); height: 1;
+border-left: 3px solid var(--color-main); padding-left: 20px; margin-left: 50px;}
+#content .content_area .table_main .t_main03 ul{ margin: 15px 0 20px 88px;}
+#content .content_area .table_main .t_main03 ul li{font-size: 1rem; color: var(--color-font2); font-weight: 500; margin: 5px;}
+
+

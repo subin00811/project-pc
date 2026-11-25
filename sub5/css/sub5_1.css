@@ -1,0 +1,34 @@
+#content .deco_line{width: 2px; height: 95px; background: var(--color-point1); margin: 0 auto 18px;}
+#content .deco_diamond{width: 12px; height: 12px; background: var(--color-point1); transform: rotate(45deg); margin: 0 auto 100px;}
+
+.product{max-width: 1200px; margin: 0 auto; padding-bottom: 100px;}
+.product_top{display: flex; justify-content: space-between; align-items: center; padding: 0 30px 44px; margin-bottom: 44px; border-bottom: 1px solid var(--color-font3);}
+/* ===== 검색창 ===== */
+.serch_box{position: relative; width: 390px;}
+.serch_box label{position: absolute; width: 1px; height: 1px; overflow: hidden;}
+.serch_box input{width: 100%; height: 42px; padding: 0 80px 0 24px; border: 1px solid var(--color-font3); border-radius: 30px;
+  box-sizing: border-box; font-size: var(--font-14-size); color: var(--color-font1); outline: none;}
+.serch_box input::placeholder {color: var(--color-font3);}
+.serch_box input:focus {border-color: var(--color-main);}
+#btn{position: absolute; top: 50%; right: 4px; transform: translateY(-50%); height: 34px; padding: 0 16px; border: none;
+    border-radius: 30px; background: var(--color-main); font-size: 14px; color: #fff; cursor: pointer;
+  transition: all .3s ease-out;}
+#btn:hover{background: #fff; color: var(--color-main);}
+.product_list ul{display: grid; grid-template-columns: repeat(4, 1fr); gap: 80px 70px; margin: 0; padding: 0; list-style: none;}
+.product_list li{text-align: center;}
+.img_box{position: relative; overflow: hidden;}
+.img_box img{display: block; width: 100%; height: 100%; object-fit: cover;}
+.img_box .desc{position: absolute; left: 0; top: 0; width: 100%; height: 100%; margin: 0; padding: 0 15px 23px; box-sizing: border-box;
+  background: linear-gradient(to top, rgba(0,0,0,01) 0%, rgba(0,0,0,0.8) 35%, rgba(0,0,0,0.3) 60%);
+  color: #fff; font-size: var(--font-14-size); font-weight: 400;
+  display: flex; text-align: left; align-items: flex-end; opacity: 0; transition: all .3s ease-out;}
+.img_box:hover .desc{opacity: 1;}
+.product_list dl{margin: 12px 0 0;}
+.product_list dt{font-size: var(--font-20-size); font-weight: 500; color: var(--color-font1);}
+.product_list dd{font-size: var(--font-14-size); color: var(--color-point1); font-weight: 500;}
+
+.category{display: flex; gap: 8px; margin: 0; padding: 0; list-style: none;}
+.category button{height: 40px; padding: 0 20px; border: 1px solid #999; border-radius: 20px; background: #fff;
+  font-size: 16px; color: #555; cursor: pointer; transition: all 0.3s;}
+.category button:hover{border-color: var(--color-main); color: var(--color-main);}
+.category button.active{border-color: var(--color-main); background: var(--color-main); color: #fff; font-weight: 700;}

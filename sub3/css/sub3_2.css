@@ -1,0 +1,17 @@
+#content .deco_line{width: 2px; height: 95px; background: var(--color-point1); margin: 0 auto 18px;}
+#content .deco_diamond{width: 12px; height: 12px; background: var(--color-point1); transform: rotate(45deg); margin: 0 auto 100px;}
+
+/* #content{max-width: 1400px; width: 100%; margin: 0 auto;} */
+
+#content .content_area .back_img{background: url(../img/sub2/background.jpg) center no-repeat; height: 406px; width: 100%; margin-bottom: 100px;
+    background-attachment: fixed; background-size: cover; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+#content .content_area .back_img span{font-family: "Noto Serif KR", serif; font-size: var(--font-h3-size); color: var(--color-main); font-weight: 600; margin-bottom: 15px;}
+#content .content_area .back_img p{font-size: 1.13rem; font-weight: 400; color: #fff;}
+
+#content .content_area section{max-width: 1400px; width: 100%; margin: 0 auto 70px;}
+#content .content_area section h3{font-size: var(--font-h6-size); font-weight: 500; color: var(--color-font1); border-left: 3px solid var(--color-main);
+padding-left: 20px; margin: 30px 0;}
+#content .content_area section dl dt{font-size: 1.13rem; color: var(--color-point3); font-weight: 600; margin-bottom: 8px;}
+#content .content_area section dl dd{font-size: 1rem; font-weight: 500; color: var(--color-font1); margin-bottom: 25px;}
+#content .content_area section:last-child{margin-bottom: 210px;}
+

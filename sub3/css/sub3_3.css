@@ -1,0 +1,63 @@
+#content .deco_line{width: 2px; height: 95px; background: var(--color-point1); margin: 0 auto 18px;}
+#content .deco_diamond{width: 12px; height: 12px; background: var(--color-point1); transform: rotate(45deg); margin: 0 auto 100px;}
+
+#content{max-width: 1400px; width: 100%; margin: 0 auto;}
+
+#content .content_area .floor h3,
+#content .content_area .opera h3{font-size: var(--font-h6-size); line-height: 1; color: var(--color-font1); font-weight: 500;
+    border-left: 3px solid var(--color-main); padding-left: 10px; margin: 80px 0 35px 0;}
+
+#content .content_area .floor ul{display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;}
+#content .content_area .floor ul li strong{font-size: var(--font-20-size); color: var(--color-point3); font-weight: 500;}
+#content .content_area .floor ul li p{font-size: 1rem; color: var(--color-font1); font-weight: 400; margin: 15px 0;}
+#content .content_area .floor ul li span{font-size: 1rem; color: var(--color-point1); font-weight: 400;}
+#content .content_area .floor ul li{box-sizing: border-box; border: 1px solid #d9d9d9; padding: 25px; border-radius: 10px; transition: all .3s ease-out;}
+#content .content_area .floor ul li:hover{background: var(--color-point3);}
+#content .content_area .floor ul li:hover strong,
+#content .content_area .floor ul li:hover p,
+#content .content_area .floor ul li:hover span{color: #fff;}
+
+
+#content .content_area .floor dl{display: grid; grid-template-columns: 80px 1fr; row-gap: 0; 
+border-bottom: 1px solid #d9d9d9; margin-top: 30px;}
+#content .content_area .floor dl dt{font-size: 1rem; color: var(--color-point3); font-weight: 500; padding: 25px 0 25px 50px;
+border-bottom: 1px solid #d9d9d9;}
+#content .content_area .floor dl dd{font-size: 1rem; color: var(--color-font1); font-weight: 400; padding: 25px 30px 25px 70px;
+border-bottom: 1px solid #d9d9d9;}
+#content .content_area .floor dl dt:last-of-type,
+#content .content_area .floor dl dd:last-of-type{border-bottom: none;}
+
+#content .content_area .opera p{font-size: 1rem; color: var(--color-font2); font-weight: 500;}
+#content .content_area .opera .opera_box{border: 1px solid #d9d9d9; width: 613px; height: 244px; padding: 30px 30px 5px 30px;}
+#content .content_area .opera .opera_box .tag_group{display: flex; gap: 20px;}
+#content .content_area .opera .opera_box .tag_group span{display: inline-block; font-size: var(--font-14-size); color: var(--color-point3); font-weight: 600;
+background: var(--color-sub1); border-radius: 30px; padding: 4px 20px;}
+#content .content_area .opera .opera_box .opera_content{display: flex; align-items: center; gap: 70px; justify-content: center; margin-top: 35px;}
+#content .content_area .opera .opera_box .opera_content img{width: 200px; height: auto;}
+#content .content_area .opera .opera_box .opera_content dl{display: grid; grid-template-columns: 80px 1fr; row-gap: 30px;}
+#content .content_area .opera .opera_box .opera_content dt{font-size: var(--font-20-size); color: var(--color-point3); font-weight: 500;}
+#content .content_area .opera .opera_box .opera_content dd{font-size: 1rem; color: var(--color-font1); font-weight: 400;}
+#content .content_area .opera .opera_text{counter-reset: step;}
+#content .content_area .opera .opera_text dt{counter-increment: step; position: relative; padding-left: 24px; font-size: 1rem; color: var(--color-font1); font-weight: 500; margin-top: 25px;}
+#content .content_area .opera .opera_text dt::before{content: counter(step); position: absolute; left: 0; top: -6px; font-size: var(--font-24-size); color: var(--color-point1); font-weight: 600;}
+#content .content_area .opera .opera_text dd{padding-left: 24px; margin: 10px 0 20px 0; font-size: var(--font-14-size); color: var(--color-font2); font-weight: 400;}
+#content .content_area .opera .opera_text+p{position: relative; padding-left: 20px; margin-top: 35px; font-size: var(--font-14-size); color: var(--color-font2); font-weight: 400; line-height: 2;}
+#content .content_area .opera .opera_text+p::before{content: ''; position: absolute; left: 0; top: 0; width: 3px; height: 100%; background: var(--color-point1);}
+#content .content_area .opera .opera_group{display: flex; align-items: flex-start; gap: 40px; margin-top: 20px;}
+#content .content_area .opera .opera_group .opera_box{flex-shrink: 0;}
+#content .content_area .opera .opera_group .text_box{flex: 1;}
+
+#content .content_area .glasses h3{font-size: var(--font-h6-size); line-height: 1; color: #fff; font-weight: 500;
+    border-left: 3px solid var(--color-main); padding-left: 10px; margin: 80px 0 35px 0; transform: translateY(130px);}
+#content .content_area .glasses .glasses_bg{background: var(--color-point3); width: 100vw; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); margin-bottom: 210px; height: 550px; padding: 100px 0;}
+#content .content_area .glasses .glasses_bg .inner{max-width: 1400px; width: 100%; margin: 0 auto;}
+#content .content_area .glasses .glasses_bg .inner dl dt span{display: block; font-size: var(--font-24-size); color: var(--color-point1); font-weight: 500;}
+#content .content_area .glasses .glasses_bg .inner dl dt{font-size: var(--font-h4-size); color: #fff; font-weight: 500; margin: 35px 0 40px 0;}
+#content .content_area .glasses .glasses_bg .inner dl dd{font-size: 1.13rem; color: #fff; font-weight: 400;}
+#content .content_area .glasses .glasses_bg .inner ul{color: #fff; display: flex; list-style: none; margin-top: 65px;}
+#content .content_area .glasses .glasses_bg .inner ul li{position: relative; flex: 1; font-size: 1rem; font-weight: 400; padding: 0 30px; border-left: 1px solid var(--color-point1)}
+#content .content_area .glasses .glasses_bg .inner ul li:first-child{border-left: none; padding-left: 0;}
+#content .content_area .glasses .glasses_bg .inner ul{counter-reset: num;}
+#content .content_area .glasses .glasses_bg .inner ul li::before{counter-increment: num; content: counter(num, decimal-leading-zero); display: block; font-size: var(--font-h2-size);
+color: var(--color-point1); margin-bottom: 40px; opacity: .6; font-weight: 400;}
+#content .content_area .glasses .glasses_bg .inner ul li span{display: block; font-size: var(--font-20-size); font-weight: 600; margin-bottom: 12px;}

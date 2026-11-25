@@ -1,0 +1,20 @@
+{
+    "sam": [
+        {"Name":"겨울왕국","Category":"디즈니","Date":"2026.08.13~2027.03.01","Descript":"얼음과 마법이 빚어낸 겨울, 디즈니 최고의 이야기","Image":"img/sub1/poster01.jpg"},
+        {"Name":"몽유도원","Category":"창작뮤지컬","Date":"2026.04.11~2026.05.10","Descript":"조선 최고의 명화 속으로, 꿈과 현실이 뒤섞이는 신비로운 여정","Image":"img/sub1/poster02.jpg"},
+        {"Name":"킹키부츠","Category":"라이선스","Date":"2025.12.17~2026.03.29","Descript":"낡은 구두공장을 살린 건 6인치 힐, 편견을 넘어선 우정이 빚어낸 기적","Image":"img/sub1/poster03.jpg"},
+        {"Name":"브로드웨이 42번가","Category":"라이선스","Date":"2025.07.10~2026.09.14","Descript":"탭슈즈 소리로 가득한 무대, 스타를 꿈꾸는 이들의 화려한 브로드웨이 전성시대","Image":"img/sub1/poster04.jpg"},
+        {"Name":"알라딘","Category":"디즈니","Date":"2024.11.22~2025.06.22","Descript":"황금빛 램프 속에서 깨어난 소원, 아그라바의 밤하늘을 수놓는 매직카펫의 모험","Image":"img/sub1/poster05.jpg"},
+        {"Name":"하데스타운","Category":"라이선스","Date":"2024.07.12~2024.10.06","Descript":"지하세계와 지상을 오가는 선율, 사랑과 희망을 노래하는 뉴올리언스 재즈 신화극","Image":"img/sub1/poster06.jpg"},
+        {"Name":"헤드윅","Category":"라이선스","Date":"2024.03.22~2024.06.23","Descript":"베를린 장벽 너머에서 온 글램록의 전설, 상처를 노래로 바꾼 단 하나의 목소리","Image":"img/sub1/poster07.jpg"},
+        {"Name":"드라큘라","Category":"라이선스","Date":"2023.12.06~2024.03.03","Descript":"영원한 사랑을 갈구하는 불멸의 존재, 어둠 속에서 피어나는 고딕 로맨스","Image":"img/sub1/poster08.jpg"},
+        {"Name":"오페라의 유령","Category":"라이선스","Date":"2023.07.21~2023.11.19","Descript":"파리 오페라 극장 지하에 숨은 천재, 가면 뒤에 감춰진 비극적 사랑","Image":"img/sub1/poster09.jpg"},
+        {"Name":"데스노트","Category":"라이선스","Date":"2023.04.01~2023.06.18","Descript":"이름을 적으면 죽는 노트 한 권, 정의와 광기 사이에서 흔들리는 선택","Image":"img/sub1/poster10.jpg"},
+        {"Name":"스위니토드","Category":"라이선스","Date":"2022.12.01~2023.03.05","Descript":"런던 뒷골목 이발소에서 벌어지는 복수극, 피로 얼룩진 채 완성되는 파이","Image":"img/sub1/poster11.jpg"},
+        {"Name":"마타하리","Category":"창작뮤지컬","Date":"2022.05.28~2022.08.15","Descript":"몽마르트르에서 스파이로, 시대가 삼켜버린 팜므파탈의 마지막 무대","Image":"img/sub1/poster12.jpg"},
+        {"Name":"지킬앤하이드","Category":"라이선스","Date":"2021.10.19~2022.05.08","Descript":"선과 악, 한 사람 안에 공존하는 두 얼굴의 파멸적인 실험","Image":"img/sub1/poster13.jpg"},
+        {"Name":"마리앙투아네트","Category":"라이선스","Date":"2021.07.13~2021.10.03","Descript":"혁명의 시대, 왕비이기 전에 한 인간이었던 여자의 선택","Image":"img/sub1/poster14.jpg"},
+        {"Name":"팬텀","Category":"라이선스","Date":"2021.03.17~2021.06.27","Descript":"장미 한 송이에 담긴 저주받은 사랑, 오페라의 유령과는 또 다른 시선의 이야기","Image":"img/sub1/poster15.jpg"},
+        {"Name":"맨오브라만차","Category":"라이선스","Date":"2021.02.02~2021.03.01","Descript":"미치광이로 불린 늙은 기사, 불가능한 꿈을 향해 끝까지 달려간 이상주의자","Image":"img/sub1/poster16.jpg"}
+    ]
+}
